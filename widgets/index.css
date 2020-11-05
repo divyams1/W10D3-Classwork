@@ -1,0 +1,41 @@
+/* font-family: 'Alfa Slab One', cursive; */
+* {
+    font-family: sans-serif;
+    /* font: inherit; */
+}
+
+.clock {
+    display: flex;
+    justify-content: space-around;
+    /* font-family: 'Alfa Slab One', cursive; */
+    background-color: black;
+    /* color: #57fd9f; */
+    /* font: inherit; */
+    color: #249c5c
+}
+
+.clock h1{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.title-tab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-tab {
+    display: none;
+}
+.show {
+    background-color: teal;
+    /* height: 100px; */
+    color: white;
+    padding: 10px;
+}
+.title-tab {
+    background: #E7F6FC;
+    padding: 10px;
+}
+.title-tab > h1 {
+    color: red;
+}
